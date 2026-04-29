@@ -9,6 +9,8 @@ import {
   FaSearch,
   FaCode,
 } from "react-icons/fa";
+import retailImg from "./images/retail.png";
+import agriImg from "./images/india_agricultural.png";
 
 const profileImage =
   "https://d3dyfaf3iutrxo.cloudfront.net/thumbnail/user/d8c13c997635450c9f45d98191070df7.jpeg";
@@ -71,14 +73,14 @@ export default function App() {
       title: "Retail Performance Intelligence",
       desc: "Developed a comprehensive retail performance intelligence dashboard using Google Sheets to analyze sales and outlet performance. The dashboard provides insights into revenue distribution, item visibility, and sales trends.",
       tags: ["Google Sheets", "Data Analysis", "Dashboarding"],
-      img: `${baseURL}image.png`,
+      img: retailImg,
       link: "https://github.com/sanath-2512/SecA-G10",
     },
     {
       title: "India Agricultural Productivity",
       desc: "Created an interactive Tableau dashboard to visualize and analyze agricultural productivity trends across India. Data cleaning and preprocessing were performed using Jupyter Notebooks, Python, and Pandas.",
       tags: ["Tableau", "Python", "Jupyter", "Pandas"],
-      img: `${baseURL}image2.png`,
+      img: agriImg,
       link: "https://public.tableau.com/app/profile/pushpendra.parihar/viz/Group17_SectionA_Dashboard_Final/1ExecutiveSummary",
     },
   ];
